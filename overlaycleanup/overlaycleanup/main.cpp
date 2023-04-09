@@ -66,19 +66,8 @@ int main()
 				&si,            // Pointer to STARTUPINFO structure
 				&pi)           // Pointer to PROCESS_INFORMATION structure
 				)
-			{
-				printf("CreateProcess failed (%d).\n", GetLastError());
-				Sleep(10000);
-				return 0;
-			}
 
-			//Close process and thread handles. 
-			CloseHandle(pi.hProcess);
-			CloseHandle(pi.hThread);
-
-			std::remove(XorStr("C:\\ProgramData\\title.txt").c_str());
-			Sleep(1000);
-			exit(0);
+ // u wont paste it looser :)
 		}
 		Sleep(40);
 	}
