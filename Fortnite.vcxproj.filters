@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Main\Resource">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Main\Resource\Libs">
+      <UniqueIdentifier>{d82c843b-c8e2-41ec-81db-aed01f5d2eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Resource\Libs\imgui">
+      <UniqueIdentifier>{ed21c3d3-6b42-4034-803b-7d1d3569a4df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Resource\Render">
+      <UniqueIdentifier>{e8d4270b-e6d1-4cf0-9d6d-03f63e157a31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Resource\Utils">
+      <UniqueIdentifier>{ed201789-ac44-4a5f-a48e-df773e1e4d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Resource\Window">
+      <UniqueIdentifier>{8bbc976c-a0c1-4e95-abee-f7cc8451fab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Resource\World">
+      <UniqueIdentifier>{990eeacc-ffee-4863-b108-81381abebe78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Resource\Xor">
+      <UniqueIdentifier>{55636ad0-d8c2-471b-bf8c-f07ddf28af04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Resource\Bytes">
+      <UniqueIdentifier>{3af81f88-a1ad-4c4a-8727-f48ed2cfc018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Obsidium Sdk">
+      <UniqueIdentifier>{f8edc473-8954-4bcc-9158-20a7e32aa70a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Resource\driver">
+      <UniqueIdentifier>{3888ec21-a7f7-4d07-8d8e-8c0b11b47bdc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Main\Resource\Libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Main\Resource\Libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp">
+      <Filter>Main\Resource\Libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>Main\Resource\Libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>Main\Resource\Libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>Main\Resource\Libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="fish.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="comm.cpp">
+      <Filter>Main\Resource\driver</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>Main\Resource\Libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Main\Resource\Libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx9.h">
+      <Filter>Main\Resource\Libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>Main\Resource\Libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Main\Resource\Libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>Main\Resource\Libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>Main\Resource\Libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>Main\Resource\Libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="features.h">
+      <Filter>Main\Resource\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>Main\Resource\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="include.h">
+      <Filter>Main\Resource\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="renderutils.h">
+      <Filter>Main\Resource\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Main\Resource\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.hpp">
+      <Filter>Main\Resource\Xor</Filter>
+    </ClInclude>
+    <ClInclude Include="world.h">
+      <Filter>Main\Resource\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="actors.h">
+      <Filter>Main\Resource\World</Filter>
+    </ClInclude>
+    <ClInclude Include="render_esp.h">
+      <Filter>Main\Resource\World</Filter>
+    </ClInclude>
+    <ClInclude Include="window.h">
+      <Filter>Main\Resource\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="overlaycleanup.h">
+      <Filter>Main\Resource\Bytes</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>Main\Resource\Bytes</Filter>
+    </ClInclude>
+    <ClInclude Include="Obsidium Sdk\keygen64.h">
+      <Filter>Main\Obsidium Sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Obsidium Sdk\obsidium.h">
+      <Filter>Main\Obsidium Sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Obsidium Sdk\obsidium64.h">
+      <Filter>Main\Obsidium Sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="streamproof.h">
+      <Filter>Main\Resource\World</Filter>
+    </ClInclude>
+    <ClInclude Include="spoofcalls.h">
+      <Filter>Main\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="skStr.h">
+      <Filter>Main\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\general.h" />
+    <ClInclude Include="comm.h">
+      <Filter>Main\Resource\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="fish.h">
+      <Filter>Main\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="lib.hpp">
+      <Filter>Main\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="defss.h">
+      <Filter>Main\Resource\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="physmeme-lib.lib" />
+    <Library Include="Obsidium Sdk\keygen64.lib">
+      <Filter>Main\Obsidium Sdk</Filter>
+    </Library>
+    <Library Include="Obsidium Sdk\obsidium64.a">
+      <Filter>Main\Obsidium Sdk</Filter>
+    </Library>
+    <Library Include="Obsidium Sdk\obsidium64.lib">
+      <Filter>Main\Obsidium Sdk</Filter>
+    </Library>
+    <Library Include="SonyDriverHelper.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obsidium Sdk\keygen64.dll">
+      <Filter>Main\Obsidium Sdk</Filter>
+    </None>
+    <None Include="Obsidium Sdk\obsidium sdk.zip">
+      <Filter>Main\Obsidium Sdk</Filter>
+    </None>
+    <None Include="Obsidium Sdk\obsidium64.def">
+      <Filter>Main\Obsidium Sdk</Filter>
+    </None>
+    <None Include="Obsidium Sdk\obsidium64.dll">
+      <Filter>Main\Obsidium Sdk</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="Obsidium Sdk\obsidiumlib.obj">
+      <Filter>Main\Obsidium Sdk</Filter>
+    </Object>
+  </ItemGroup>
+</Project>

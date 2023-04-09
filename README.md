@@ -1,2 +1,6 @@
-# Fortnite-External-SelfLeak
-Best fortnite external base using nvidia overlay it has nice optimization 0 lags with 100 people render, weapon configs, internal box and many other shit. Its outdated so u need to update it u paster. I aint gonna include drivers :)
+# fortnite-external
+simple fortnite external using data pointer swap communication &amp; nvidia overlay hijacking
+
+explanation:
+this is basically just a leak, some people got it from one of my old friend that got ratted and they are planning on selling it.
+this won't be undetected and you may need to fix up shit in the source, if you need help contact me here -> dragan#8255

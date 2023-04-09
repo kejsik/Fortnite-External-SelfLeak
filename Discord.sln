@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Discord", "Discord\Discord.vcxproj", "{9C6F0D75-59AC-496F-9213-360695D9C1BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C6F0D75-59AC-496F-9213-360695D9C1BA}.Debug|x64.ActiveCfg = Debug|x64
+		{9C6F0D75-59AC-496F-9213-360695D9C1BA}.Debug|x64.Build.0 = Debug|x64
+		{9C6F0D75-59AC-496F-9213-360695D9C1BA}.Debug|x86.ActiveCfg = Debug|Win32
+		{9C6F0D75-59AC-496F-9213-360695D9C1BA}.Debug|x86.Build.0 = Debug|Win32
+		{9C6F0D75-59AC-496F-9213-360695D9C1BA}.Release|x64.ActiveCfg = Release|x64
+		{9C6F0D75-59AC-496F-9213-360695D9C1BA}.Release|x64.Build.0 = Release|x64
+		{9C6F0D75-59AC-496F-9213-360695D9C1BA}.Release|x86.ActiveCfg = Release|Win32
+		{9C6F0D75-59AC-496F-9213-360695D9C1BA}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA9DA8F6-48D2-43EA-B51E-1457BA240194}
+	EndGlobalSection
+EndGlobal
